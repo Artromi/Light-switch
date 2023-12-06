@@ -6,19 +6,34 @@ html {
   height: 100%;
 }
 
-.body {
+body {
   margin: 0;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ease-in 1s background-color;
+}
+
+.body--dark {
+  background-color: rgb(43, 38, 38);
+  transition: ease-in 1s background-color;
 }
 
 .button {
+  background-color: white;
   padding-inline: 2rem;
   padding-block: 1rem;
   font-size: 2rem;
   font-family: Verdana, sans-serif;
-  border: 0.5rem solid;
+  border: 0.25rem solid;
+  border-radius: 0.25rem;
   cursor: pointer;
+}
+
+.button--dark {
+  color: white;
+  background-color: rgb(43, 38, 38);
+  border: 0.5rem solid white;
+  box-shadow: 0 0 1rem 0.5rem gold;
 }
