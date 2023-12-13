@@ -5,9 +5,10 @@ function buttonClick() {
   btn.classList.toggle("button--dark");
   bodyDark.classList.toggle("body--dark");
 
-  
   if (document.title !== "Good Night") {
     document.title = "Good Night";
+  } else {
+    document.title = "Good Morning";
   }
 }
 
