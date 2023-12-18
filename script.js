@@ -1,9 +1,9 @@
 const btn = document.querySelector("button");
-const bodyDark = document.querySelector("body");
+const body = document.querySelector("body");
 
 function buttonClick() {
   btn.classList.toggle("button--dark");
-  bodyDark.classList.toggle("body--dark");
+  body.classList.toggle("body--dark");
 
   if (document.title !== "Good Night") {
     document.title = "Good Night";
